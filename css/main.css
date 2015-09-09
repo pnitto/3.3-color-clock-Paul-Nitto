@@ -5,3 +5,7 @@ html {
 *::after,
 *::before {
   box-sizing: inherit; }
+
+#progress-bar {
+  height: 30px;
+  background-color: green; }

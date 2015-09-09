@@ -6,12 +6,11 @@
 
   <title>Color clock</title>
 </head>
-<body onload=clock();>
-  <div>
-    <h1>This is the clock<span class="js-clock"></span>
-    </h1>
-  </div>
-
+<body onload="clock();" id="body">
+    <h1><span class="js-clock"></span></h1>
+    <h1><span class="js-second-percent"></span>%</h1>
+    <div id='progress-bar'>
+    </div>
 </body>
 <script src="scripts/main.js"></script>
 </html>
