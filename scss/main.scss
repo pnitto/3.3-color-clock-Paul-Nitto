@@ -5,7 +5,32 @@
  #progress-bar {
    height: 30px;
    background-color: green;
- }
-.js-clock {
-  color: black;
+}
+.js-second-percent {
+  color: white;
+}
+.percent {
+  color: white;
+}
+#body {
+  color: white;
+  display: none;
+  font-size: 32px;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+.time {
+  margin-top: 10%;
+}
+.clock {
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+}
+.clock:hover #body {
+  display: block;
+}
+.clock:hover .js-clock {
+  visibility: hidden;
 }
