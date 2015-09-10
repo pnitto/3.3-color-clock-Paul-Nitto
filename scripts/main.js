@@ -30,20 +30,4 @@ function clock() {
 
   document.querySelector('.js-second-percent').textContent = secondPercent;
   document.querySelector('.js-clock').textContent = clock;
-
-  //console.log(secondPercent);
-  //console.log(seconds);
-  //console.log(clock);
 }
-
-
-
-
-
-// Stuff not needed //
-//function secondPercent() {
-//  var currentTime = clock();
-//}
-  //var currentTime = new Date();
-//  console.log(currentTime);
-//document.querySelector('.js-clock').textContent = currentTime;
