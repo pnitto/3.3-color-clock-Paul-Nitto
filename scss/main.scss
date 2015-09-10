@@ -1,7 +1,11 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/neat/app/assets/stylesheets/neat';
 
+
  #progress-bar {
    height: 30px;
    background-color: green;
  }
+.js-clock {
+  color: black;
+}

@@ -9,3 +9,6 @@ html {
 #progress-bar {
   height: 30px;
   background-color: green; }
+
+.js-clock {
+  color: black; }
